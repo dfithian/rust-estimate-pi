@@ -8,6 +8,10 @@ edition = "2018"
 rand = { version = "0.7.0" }
 rayon = { version = "1.2.0" }
 
+[lib]
+name = "pi"
+path = "lib/lib.rs"
+
 [[bin]]
 name = "simple-pi"
 path = "simple/main.rs"
