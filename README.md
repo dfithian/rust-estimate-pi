@@ -13,7 +13,7 @@ This project is an experiment helping me to learn Rust by estimating Pi.
 
 # Other features
 
-* `lib.rs` re-exports modules
+* `lib.rs` re-exports modules.
 * `simple/main.rs`, `parallel/main.rs` are entrypoints for the different functions with static
   inputs.
 * `arguments/main.rs` parses command-line arguments but otherwise does the same thing as
