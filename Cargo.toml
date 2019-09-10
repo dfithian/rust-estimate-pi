@@ -1,0 +1,21 @@
+[package]
+name = "pi"
+version = "0.1.0"
+authors = ["Dan Fithian <daniel.m.fithian@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = { version = "0.7.0" }
+rayon = { version = "1.2.0" }
+
+[[bin]]
+name = "simple-pi"
+path = "simple/main.rs"
+
+[[bin]]
+name = "parallel-pi"
+path = "parallel/main.rs"
+
+[[bin]]
+name = "arguments-pi"
+path = "arguments/main.rs"
