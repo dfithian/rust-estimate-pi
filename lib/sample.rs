@@ -22,7 +22,7 @@ pub fn sample(size: u32) -> Vec<i32> {
     (0..size)
         .map(|_| {
             let (x, y) = random_pt();
-            inside(x, y) as i32
+            inside(x, y) // as i32
         })
-        .collect()
+        // .collect()
 }
