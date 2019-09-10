@@ -1,6 +1,6 @@
 use pi::arguments::parse_args;
 use pi::parallel::parallel_estimate_pi;
-use pi::time::time_and_print;
+use pi::simple::time_and_print;
 
 fn main() {
     match parse_args() {

@@ -23,3 +23,7 @@ path = "parallel/main.rs"
 [[bin]]
 name = "arguments-pi"
 path = "arguments/main.rs"
+
+[[bin]]
+name = "trait-pi"
+path = "trait/main.rs"
